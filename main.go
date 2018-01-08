@@ -8,8 +8,8 @@ import (
 	"path"
 	"strings"
 
-	"github.com/chop-dbhi/sql-importer/profile/csv"
-	"github.com/chop-dbhi/sql-importer/reader"
+	"github.com/gosemver/sql-importer-1.2.5/profile/csv"
+	"github.com/gosemver/sql-importer-1.2.5/reader"
 )
 
 type Request struct {

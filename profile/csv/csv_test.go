@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/chop-dbhi/sql-importer/profile"
+	"github.com/gosemver/sql-importer-1.2.5/profile"
 )
 
 func TestProfiler(t *testing.T) {

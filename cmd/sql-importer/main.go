@@ -8,7 +8,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/chop-dbhi/sql-importer"
+	"github.com/gosemver/sql-importer-1.2.5"
 )
 
 func main() {

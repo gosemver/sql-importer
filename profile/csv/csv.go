@@ -5,7 +5,7 @@ import (
 	"io"
 	"strings"
 
-	"github.com/chop-dbhi/sql-importer/profile"
+	"github.com/gosemver/sql-importer-1.2.5/profile"
 )
 
 type Profiler struct {

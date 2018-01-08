@@ -13,13 +13,13 @@ Features:
 
 ## Install
 
-[Download a pre-built release](https://github.com/chop-dbhi/sql-importer/releases).
+[Download a pre-built release](https://github.com/gosemver/sql-importer-1.2.5/releases).
 
 
 Or install it from source (requires Go).
 
 ```
-go get github.com/chop-dbhi/sql-importer/cmd/sql-importer
+go get github.com/gosemver/sql-importer-1.2.5/cmd/sql-importer
 ```
 
 ## Usage

@@ -11,7 +11,7 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/chop-dbhi/sql-importer/profile"
+	"github.com/gosemver/sql-importer-1.2.5/profile"
 	"github.com/lib/pq"
 	uuid "github.com/satori/go.uuid"
 )
@@ -174,7 +174,8 @@ func (c *Client) execTx(fn func(tx *sql.Tx) error) error {
 }
 
 func (c *Client) Replace(schemaName, tableName string, tableSchema *Schema, cr *csv.Reader) (int64, error) {
-	tempTableName := uuid.NewV4().String()
+	uuidNewV4, _ :=uuid.NewV4()
+	tempTableName := uuidNewV4.String()
 
 	if err := c.createSchema(schemaName); err != nil {
 		return 0, err
